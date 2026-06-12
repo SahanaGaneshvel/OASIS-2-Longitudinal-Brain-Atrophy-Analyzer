@@ -1,0 +1,198 @@
+{
+  "status": "complete",
+  "metadata": {
+    "n_subjects": 42,
+    "n_regions_analyzed": 14,
+    "n_tests": 14,
+    "bonferroni_threshold": 0.0035714285714285718,
+    "n_regions_p05": 5,
+    "n_regions_bonferroni": 1,
+    "analysis_date": "2026-06-12T15:34:09.737358"
+  },
+  "matched_baseline": {
+    "feature": "whole_brain_nWBV_atrophy",
+    "auc_mean": 0.7616666666666667,
+    "auc_std": 0.04451903463064359,
+    "n_subjects": 42,
+    "description": "Whole-brain atrophy on same 42 subjects with same baseline CDR labels"
+  },
+  "phase1_reference": {
+    "feature": "whole_brain_nWBV",
+    "auc": 0.64,
+    "description": "Phase 1 whole-brain (full 150-subject cohort, last-visit CDR) - for reference only"
+  },
+  "regions": [
+    {
+      "label": "label_11",
+      "label_num": 11,
+      "name": "parahippocampal_L",
+      "auc_mean": 0.74,
+      "auc_std": 0.21482551058940833,
+      "p_value": 0.0031098978617405165,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_18",
+      "label_num": 18,
+      "name": "subiculum_R",
+      "auc_mean": 0.7058333333333333,
+      "auc_std": 0.09921917377424815,
+      "p_value": 0.027910446338809597,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_8",
+      "label_num": 8,
+      "name": "entorhinal_pMEC_R",
+      "auc_mean": 0.6925,
+      "auc_std": 0.12237238250520419,
+      "p_value": 0.013267037647874033,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_10",
+      "label_num": 10,
+      "name": "perirhinal_R",
+      "auc_mean": 0.6866666666666668,
+      "auc_std": 0.15173533244142945,
+      "p_value": 0.01423614764069651,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_6",
+      "label_num": 6,
+      "name": "entorhinal_aLEC_R",
+      "auc_mean": 0.6808333333333334,
+      "auc_std": 0.15387585183445054,
+      "p_value": 0.04066602046958914,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_12",
+      "label_num": 12,
+      "name": "parahippocampal_R",
+      "auc_mean": 0.6375,
+      "auc_std": 0.2009353129741012,
+      "p_value": 0.18045930310070668,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_9",
+      "label_num": 9,
+      "name": "perirhinal_L",
+      "auc_mean": 0.6233333333333333,
+      "auc_std": 0.12587471725666138,
+      "p_value": 0.14273133807867042,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_17",
+      "label_num": 17,
+      "name": "subiculum_L",
+      "auc_mean": 0.6083333333333333,
+      "auc_std": 0.20923139768633622,
+      "p_value": 0.5782427405426496,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_7",
+      "label_num": 7,
+      "name": "entorhinal_pMEC_L",
+      "auc_mean": 0.5316666666666666,
+      "auc_std": 0.17967176863504308,
+      "p_value": 0.16456428885587226,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_14",
+      "label_num": 14,
+      "name": "DG_CA3_R",
+      "auc_mean": 0.5199999999999999,
+      "auc_std": 0.12614475811542866,
+      "p_value": 0.9596911070571206,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_15",
+      "label_num": 15,
+      "name": "CA1_L",
+      "auc_mean": 0.44666666666666666,
+      "auc_std": 0.1964864993948552,
+      "p_value": 0.5782427405426496,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_5",
+      "label_num": 5,
+      "name": "entorhinal_aLEC_L",
+      "auc_mean": 0.425,
+      "auc_std": 0.14832396974191328,
+      "p_value": 0.859591455075173,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_16",
+      "label_num": 16,
+      "name": "CA1_R",
+      "auc_mean": 0.35666666666666663,
+      "auc_std": 0.08666666666666667,
+      "p_value": 0.820085146027997,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    },
+    {
+      "label": "label_13",
+      "label_num": 13,
+      "name": "DG_CA3_L",
+      "auc_mean": 0.305,
+      "auc_std": 0.17968722826066408,
+      "p_value": 0.4333988180222883,
+      "n_subjects": 42,
+      "is_medial_temporal": true
+    }
+  ],
+  "top_region": {
+    "label": "label_11",
+    "label_num": 11,
+    "name": "parahippocampal_L",
+    "auc_mean": 0.74,
+    "auc_std": 0.21482551058940833,
+    "p_value": 0.0031098978617405165,
+    "n_subjects": 42,
+    "is_medial_temporal": true
+  },
+  "medial_temporal_combined": {
+    "auc_mean": 0.5383333333333333,
+    "auc_std": 0.17625344756281444,
+    "n_regions": 14,
+    "regions_used": [
+      "entorhinal_aLEC_L",
+      "entorhinal_aLEC_R",
+      "entorhinal_pMEC_L",
+      "entorhinal_pMEC_R",
+      "perirhinal_L",
+      "perirhinal_R",
+      "parahippocampal_L",
+      "parahippocampal_R",
+      "DG_CA3_L",
+      "DG_CA3_R",
+      "CA1_L",
+      "CA1_R",
+      "subiculum_L",
+      "subiculum_R"
+    ],
+    "n_subjects": 42
+  }
+}

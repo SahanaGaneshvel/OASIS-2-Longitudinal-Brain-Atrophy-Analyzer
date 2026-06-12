@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "n_subjects": 0,
+    "n_demented": 0,
+    "n_non_demented": 0,
+    "analysis_date": "2024-01-01T00:00:00"
+  },
+  "atrophy_classification": {
+    "feature": "annualized_nWBV_atrophy_rate",
+    "auc_mean": 0,
+    "auc_std": 0,
+    "accuracy_mean": 0,
+    "accuracy_std": 0,
+    "method": "Stratified 5-fold CV"
+  },
+  "baseline_classification": {
+    "feature": "baseline_nWBV",
+    "auc_mean": 0,
+    "auc_std": 0,
+    "accuracy_mean": 0,
+    "accuracy_std": 0,
+    "note": "Baseline volume alone is discriminative"
+  },
+  "group_comparison": {
+    "demented_mean": 0,
+    "demented_std": 0,
+    "demented_n": 0,
+    "non_demented_mean": 0,
+    "non_demented_std": 0,
+    "non_demented_n": 0,
+    "p_value": 1,
+    "cohens_d": 0,
+    "test": "Mann-Whitney U"
+  },
+  "subject_trajectories": []
+}
