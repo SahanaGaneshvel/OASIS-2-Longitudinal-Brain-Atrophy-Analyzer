@@ -2,7 +2,7 @@
 
 A web application that quantifies how brain regions shrink over time in aging and Alzheimer's patients, testing whether **rate of atrophy** separates demented from non-demented subjects.
 
-**Live demo:** [URL will be added after deployment]
+**Live demo:** https://oasis-brain-atrophy.vercel.app/
 
 ---
 
